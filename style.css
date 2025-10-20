@@ -1,0 +1,63 @@
+@keyframes rainbow {
+  100%,0%{
+    color: rgb(255,0,0);
+  }
+  8%{
+    color: rgb(255,127,0);
+  }
+  16%{
+    color: rgb(255,255,0);
+  }
+  25%{
+    color: rgb(127,255,0);
+  }
+  33%{
+    color: rgb(0,255,0);
+  }
+  41%{
+    color: rgb(0,255,127);
+  }
+  50%{
+    color: rgb(0,255,255);
+  }
+  58%{
+    color: rgb(0,127,255);
+  }
+  66%{
+    color: rgb(0,0,255);
+  }
+  75%{
+    color: rgb(127,0,255);
+  }
+  83%{
+    color: rgb(255,0,255);
+  }
+  91%{
+    color: rgb(255,0,127);
+  }
+}
+
+
+main {
+  text-align: center;
+  list-style-position: inside;
+  font-family: monospace;
+  font-size: 30px;
+  margin-top: 4%;
+  animation: rainbow 1000ms linear;
+  animation-iteration-count: infinite;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    0px 2px 0 #000;
+}
+
+body {
+  background-image: url("gayflag.gif");
+  background-size: cover;
+}
