@@ -42,8 +42,8 @@ main {
   text-align: center;
   list-style-position: inside;
   font-family: monospace;
-  font-size: 30px;
-  margin-top: 4%;
+  font-size: 26px;
+  margin-top: 3%;
   animation: rainbow 1000ms linear;
   animation-iteration-count: infinite;
   text-shadow:
