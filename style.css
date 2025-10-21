@@ -43,7 +43,7 @@ main {
   list-style-position: inside;
   font-family: monospace;
   font-size: 26px;
-  margin-top: 3%;
+  margin-top: 2%;
   animation: rainbow 1000ms linear;
   animation-iteration-count: infinite;
   text-shadow:
